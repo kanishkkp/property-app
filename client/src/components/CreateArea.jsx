@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import AddIcon from "@mui/icons-material/Add";
 import axios from "axios";
+import config from "./config";
 
 function CreateArea(props) {
   const [isExpanded, setExpanded] = useState(false);
@@ -24,7 +25,7 @@ function CreateArea(props) {
 
   function submitNote(event) {
     //props.onAdd(note);
-    axios.post("http://localhost:3001/create",note);
+    axios.post("${config.SERVER_URI}/create",note);
 
     setNote({
       title: "",

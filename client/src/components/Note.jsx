@@ -1,11 +1,12 @@
 import React  from "react";
 import DeleteIcon from '@mui/icons-material/Delete';
 import axios from "axios";
+import config from "./config";
 
 function Note(props) {
  function handleClick() {
      
-     axios.post("http://localhost:3001/delete",props);
+     axios.post("${config.SERVER_URI}/delete",props);
    }
 
 

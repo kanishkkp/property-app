@@ -22,13 +22,13 @@ header {
 
 header h1 {
   color: #fff;
-  font-family: "McLaren", cursive;
+  font-family: "Monstserrat",sans-serif;
   font-weight: 200;
 }
 
 
 .note {
-  font-family: "McLaren", cursive;
+  font-family: Georgia, serif;
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
@@ -38,6 +38,7 @@ header h1 {
   float: left;
 }
 .note h1 {
+  font-family: "McLaren", cursive;
   font-size: 1.5em;
   margin-bottom: 6px;
 }

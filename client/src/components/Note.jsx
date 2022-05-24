@@ -6,7 +6,7 @@ import config from "./config";
 function Note(props) {
  function handleClick() {
      
-     axios.post("${config.SERVER_URI}/delete",props);
+     axios.post(config.SERVER_URI+"/delete",props);
    }
 
 

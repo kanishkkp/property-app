@@ -1,6 +1,6 @@
 const configs = {
     development: {
-      SERVER_URI: 'localhost:5000',
+      SERVER_URI: 'localhost:3001',
     },
     production: {
       SERVER_URI: 'HEROKU_URI',

@@ -25,7 +25,7 @@ function CreateArea(props) {
 
   function submitNote(event) {
     //props.onAdd(note);
-    axios.post(config.SERVER_URI+"/create",note);
+    axios.post("https://property-app-kp10.herokuapp.com/create",note);
 
     setNote({
       title: "",
